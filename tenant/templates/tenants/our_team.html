@@ -1,0 +1,9 @@
+<h1>{{tenant.name}}</h1>
+
+<h2>Our members</h2>
+
+<ul>
+    {% for member in members %}
+       <li>{{member.name}}</li>
+    {% endfor %}
+</ul>
